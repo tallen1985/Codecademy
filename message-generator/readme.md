@@ -1,5 +1,4 @@
 # Message Generator
--------------------
 **Creates a randomized message containing a greeting, a noun, and an activity**  
 *First portfolio project for Codecademy*  
     - utilizes node.js  
