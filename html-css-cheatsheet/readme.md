@@ -12,7 +12,7 @@ _Html/Css Development_
 -`<Article>`  
 -`<Section>`  
 -`<Span>`  
--`<P>`
--`<Aside>`
--`<Header>`
--`<Footer>`
+-`<P>`  
+-`<Aside>`  
+-`<Header>`  
+-`<Footer>`  
