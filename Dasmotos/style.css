@@ -17,3 +17,21 @@ header {
     text-align: center;
     background-image: url("./images/pattern.webp");
 }
+h2 {
+    font-weight: bold;
+    color:white;
+    font-size: 32px;
+}
+#brushes h2 {
+    background-color: mediumspringgreen;
+}
+#paint h2 {
+    background-color: skyblue;
+}
+#frames h2 {
+    background-color: lightcoral;
+}
+#price {
+    font-weight: bold;
+    color: blue;
+}
