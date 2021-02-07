@@ -8,7 +8,7 @@ _Html/Css Development_
 -Use HTML tables to display information.  
 
 ## Topic  
-*Describing semantic tags in HTML5 such as:  *  
+*Describing semantic tags in HTML5 such as:*  
 -`<Article>`  
 -`<Section>`  
 -`<Span>`  
