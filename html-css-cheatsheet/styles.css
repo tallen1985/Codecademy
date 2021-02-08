@@ -40,3 +40,6 @@ tr {
     font-size: smaller;
     vertical-align: top;
 }
+.codeText {
+    font-family: 'Courier New', Courier, monospace;
+}
