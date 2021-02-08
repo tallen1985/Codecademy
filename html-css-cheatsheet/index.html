@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Html/CSS Cheatsheet - Semantic Method</title>
+  <meta name="description" content="Html/CSS Cheatsheet - Semantic Method">
+  <meta name="author" content="Grey Gato Productions">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>HTML/CSS Cheat Sheet</h1>
+    
+  </header>
+  <br>
+  <main class="content-block">
+    <article>
+    <h2>Using Semantic Tags</h2>
+    <p>Semantic tags are tags that are labeled with words that make sense for their context.  In the past we may have simply used &#60Div&#62 wherever we needed to make a section.  In HTML5 we began to utilize tags such as Aside, Section, Header, Article, Footer.  While not completely necessary, they allow our code to more legible and easier for another person (or yourself awhile later) to understand how the page is put together.</p>
+    </article>
+    <table>
+      <tr id="top-row">
+        <td>Tag</td>
+        <td>When to use</td>
+      </tr>
+      <tr>
+        <td>&#60Header&#62</td>
+        <td>Generally used at the top of the page to contain the &#60h1&#62.</td>
+      </tr>
+      <tr>
+        <td>&#60Article&#62</td>
+        <td>Used to create a division that can stand on it's own as a solo topic.</td>
+      </tr>
+      <tr>
+        <td>&#60Section&#62</td>
+        <td>Usually Section is designated as a smaller part of an article.  Not to be thought of as an individual statement, or a complete thought, but rather as a part of a larger thought.</td>
+      </tr>
+      <tr>
+        <td>&#60Aside&#62</td>
+        <td>Supporting materials to the article, such as supporting images or side links.  </td>
+      </tr>
+      <tr>
+        <td>&#60Footer&#62</td>
+        <td>A section of a page generally used to display some navigation links, copywrite information, disclaimers, and usually will not change as the user navigates throughout the page.</td>
+      </tr>
+    </table>
+    <article>
+      <p>
+        When using Semantic HTML tags instead of non-semantic tags (i.e. &#60div class="blueBg"&#62,) It becomes harder to maintain down the road.  Imagine if you used "blueBg," and down the road wanted to change the color to red...that would require either using a class designation that makes no sense, or updating all of the tags.
+      </p>
+    </article>
+    <aside>
+      <h3> Strong vs 'B', Em vs 'I'</h3>
+      <p>Although Strong and B will both increase the font-weight, and 'Em' (emphasize) and 'I' will both italicize text, they do it in different ways.  Strong and Em will evolve over time with the generally accepted norms, maybe in the future we won't want to bold strong text, but rather turn it blue...who knows?  Utilizing Strong and Em vs B and I will allow your HTML to be more readable and able to evolve as societal norms evolve.</p>
+    </aside>
+  </main>
+  <br>
+  <footer>
+    <em>&copy Grey Gato Productions 2021.</em>
+  </footer>
+</body>
+</html>
