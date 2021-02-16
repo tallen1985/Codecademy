@@ -6,23 +6,102 @@ body {
     background-color: white;
 }
 h1 {
+    font-family: 'Indie Flower', cursive;
     text-align: center;
     font-size: 2em;
     font-weight: 500;
 }
+h2 {
+    font-family: 'Syne Mono', monospace;
+    font-size: 1.75em;
+}
 .container {
     border: 1px solid black;
-    box-shadow: 5px 5px 5px lightgray; 
+    box-shadow: 5px 5px 5px gray; 
     Margin: 30px auto;
     width:90%;
 }
-.container h2 {
+.container span {
     position:relative;
     background-color: white;
     display:inline;
     font-style: italic;
-    font-weight: 300;
+    font-size: 1.25em;
+    font-weight: bold;
     text-align: left;
     top: -.65em;
     left: 3em;
+}
+/* Color Section */
+#colors, #fonts, #styles {
+    margin: 0px auto;
+    text-align: center;
+}
+.color-box {
+    display:inline-block;
+    margin: 20px;
+    border: 1px solid black;
+    margin:20px;
+    width: 20%;
+}
+.color-1 {
+    background-color: #dfebb5;
+}
+.color-2 {
+    background-color: #828282;
+    color:white;
+}
+.color-3 {
+    background-color: #2179b0;
+    color:white;
+}
+.color-4 {
+    background-color: #091875;
+    color:lightgray;
+}
+#note {
+    font-size: .65em;
+}
+/* Font Section */
+.font-box {
+    display:inline-block;
+    line-height: 1.5em;
+    font-size: 1.2em;
+    margin: 10px;
+    width: 40%;
+    vertical-align: top;
+}
+#fonts p {
+    margin-top:0px;
+}
+#fonts p::first-line {
+    font-size:1.1em;
+    text-decoration: underline;
+}
+.font-2 {
+    font-family: 'Syne Mono', monospace;
+}
+.font-2 #note {
+    float:right;
+}
+.font-3 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.3em;
+}
+/* Style Section */
+#style-box {
+    display:block;
+    margin: 20px 20px;
+    text-align: left;
+    width:50%;
+    line-height: 1.5em;
+}
+#style-box h1 {
+    text-align: left;
+}
+#style-box a {
+    text-decoration: none;
+}
+#style-box a:hover {
+    font-weight: bold;
 }
