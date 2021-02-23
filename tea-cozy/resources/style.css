@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-family:Helvetica, sans-serif;
+    font-size:22px;
+    color:rgba(255,245,238, 0.7);
+    background-color:black;
+    text-align: center;
+}
+h4 {
+    font-size: .75rem;
+}
+/* Nav Bar */
+nav {
+    position:fixed;
+    height:69px;
+    border-bottom:1px solid seashell;
+    background-color:black;
+    width:100%;
+    display:flex;
+    align-items: center;
+}
+
+nav img {
+    height: 50px;
+    margin-left:10px;
+}
+
+#spacebox {
+    flex-shrink: 2;
+    flex-grow: 1;
+}
+
+ul {
+    margin-right:5%;
+    width:45%;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li {
+    display:inline-flex;
+    text-decoration: underline;
+}
+
+/* Main Image */
+.jumbotron {
+    padding-top: 70px;
+    width: 100%;
+    display: flex;
+    border: 1px solid white;
+
+}
+.missionLogo {
+    margin: 0 auto;
+    display:flex;
+    background-image: url("../images/img-mission-background.webp");
+    overflow: hidden;
+    height: 700px;
+    width: 90%;
+    max-width: 1200px;
+    background-position: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#mission {
+    text-align: center;
+    width: 100%;
+    flex-direction: column;
+    background-color: black;
+}
+
+/* Galllery */
+.gallery {
+    flex-basis: 1000px;
+    margin: 0 auto;
+}
+.teaOfMonth {
+    flex-basis:1000px;
+}
+.galleryImages {
+    display:inline-flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+.gallery img {
+    flex-basis: 300px;
+    height:200px;
+}
+.galleryImages h4 {
+    margin: 15px;
+}
+
+/* Locations */
+.locationsContainer {
+    margin:0 auto;
+    max-width: 1200px;
+    height:500px;
+    width:90%;
+    background-image: url(../images/img-locations-background.webp);
+}
+.locationsContainer h2 {
+    padding-top:50px;
+    margin-bottom:15px;
+    width:100%;
+}
+.locationsBox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.locationsContainer .location {
+    background-color: black;
+    width:300px;
+    margin: 15px 20px;
+    opacity: 1;
+}
+/* Footer */
+footer {
+    height: 200px;
+}
+
+footer a:link {
+    color:rgba(255,245,238, 0.7);
+    text-decoration: none;
+}
+footer p {
+    text-align: left;
+    font-size: .75rem;
+    margin-left: 20px;
+}
