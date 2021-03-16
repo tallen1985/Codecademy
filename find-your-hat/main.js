@@ -44,7 +44,7 @@ class Field {
             }
             tempField.push(tempRow);
         }
-        tempField[0][0] = fieldCharacter;
+        tempField[Math.floor(Math.random()* rows)][Math.floor(Math.random()* cols)] = fieldCharacter;
         tempField[Math.floor(Math.random()* rows)][Math.floor(Math.random()* cols)] = hat;
 
         return tempField;
@@ -86,6 +86,8 @@ function move(){
 
 
 function playGame(rows, cols){
+    console.log('Find Your Hat!');
+    console.log('The goal is get your icon (*) to the hat (^) without falling into the holes (0)');
     do{
         if((myField.x >= 0 && myField.x < rows) && (myField.y >= 0 && myField.y < cols))
         {
