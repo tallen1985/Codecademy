@@ -1,0 +1,22 @@
+.box {
+    display: flex;
+    width:90%;
+    border: 2px solid black;
+    margin:0 auto;
+}
+.thumbsbox {
+    width:15%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    flex-direction: column;
+}
+.thumbsbox img {
+    width:100px;
+    height:auto;
+    margin: 10px;
+}
+#bigpic #bigPicImg {
+    display: inline;
+    width:80%;
+}

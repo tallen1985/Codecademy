@@ -1,0 +1,152 @@
+body {
+    background-color: silver;
+    font-family: Raleway;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: cadetblue;
+    height: 75px;
+    margin: 0;
+    padding-top: 22px;
+    padding-left: 25px;
+    width:100%; 
+}
+#logo-name {
+    display: inline;
+    font-size:17px;
+    font-weight:400;
+    opacity: .75;
+}
+#logo-name .fa-cat {
+    font-size: 40px;
+    width: 50px
+}
+#logo-name h1 {
+    display: inline;
+}
+h4 {
+    font-size: 1.5rem;
+}
+nav {
+    margin-right:30px;
+    padding-top:10px;
+    display:inline-block;
+    width: 50%;
+    
+}
+nav .navbar {
+    width:100%;
+}
+nav ul {
+    display:inline-flex;
+    font-size: 20px;
+    font-weight:100;
+    text-align:center;
+    list-style-type: none;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+.navbar ul li a{
+    color: white;
+}
+a:link {
+    text-decoration: none;
+    color:black;
+}
+
+a:hover {
+    font-weight: 400;
+    opacity: 1.0;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+main {
+    background-color:silver;
+}
+main #main-box, main #about-box{
+				
+    max-width: 1000px;
+    width: 90%;
+    height: 450px;
+    margin: auto;
+    padding-top:10px;
+}
+main #main-box {
+    overflow: hidden
+}
+main #about-box {
+    overflow-y: scroll;
+}
+#main-box #boxImage {
+    margin-top: -50px;
+    width: 100%;
+    overflow: hidden;
+}
+
+footer {
+    position: relative;
+    bottom:0px;
+    padding-top:20px;
+    font-weight: 400;
+    padding-left: 25px;
+    height:25px;
+}
+/* Responsiveness */
+@media (max-width: 810px) {
+    header {
+        height:fit-content;
+    }
+    #logo-name h1{
+        display: none;
+    }
+    #logo-name .fa-cat {
+        font-size:30px;
+        width:fit-content;
+    }
+    nav {
+        width:65%;
+    }
+    .nav ul {
+        justify-content: space-around;
+        font-size:1.5em;
+    }
+    .navbar li {
+        font-size: 1rem;
+    }
+    .navbar ul li a{
+        font-size 1.5em;
+        color: white;
+    }
+}
+/* Credentials and Projects */
+.entry-box {
+    display:block;
+    margin-top:30px;
+}
+.spacer {
+    height: 20px;
+}
+.entry-box img {
+    float:left;
+}
+.entry-text {
+    overflow:hidden;
+    padding-left:10px;
+}
+entry-box a:link {
+    text-decoration: underline;
+}
+.entry-box a:hover {
+    font-weight: bold;
+}
+
+.about-logo {
+    width: 64px;
+    padding-right: 30px;
+}
