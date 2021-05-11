@@ -29,7 +29,7 @@ export const ContactsPage = (props) => {
 
   useEffect( () => {
     if (name) {
-    if (contactsArray.find((contact) => {return contact.name === name})) {
+    if (contactsArray.find((contact) => {return contact.name.toLowerCase() === name.toLowerCase()})) {
       setDuplicate(true);
     } else {
       setDuplicate(false);
@@ -57,7 +57,7 @@ export const ContactsPage = (props) => {
       <hr />
       <section>
         <h2>Contacts</h2>
-        <TileList contactsArray={contactsArray} />
+        <TileList objArray={contactsArray} />
       </section>
     </div>
   );

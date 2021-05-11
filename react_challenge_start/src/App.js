@@ -10,7 +10,7 @@ function App() {
   contacts and appointments 
   */
   const [contacts, setContacts] = useState([
-    {key: 1,
+    {
      name:'Jake',
      phone: '603-553-3103',
      email: 'jake.allen@me.com'
@@ -24,7 +24,6 @@ function App() {
       time: '5:00pm'
     }
   ]);
-  let key;
 
   const ROUTES = {
     CONTACTS: "/contacts",
@@ -37,10 +36,9 @@ function App() {
   */
 
   const addContact = (name, phone, email) => {
-    key = contacts.length + 1
     setContacts(prev => 
       [...prev,
-       {key, name, phone, email}
+       {name, phone, email}
       ]);
   }
 
@@ -78,7 +76,8 @@ function App() {
           <Route path={ROUTES.APPOINTMENTS}>
             {/* Add props to AppointmentsPage */}
             <AppointmentsPage addAppointment={addAppointment}
-            appointmentsArray={appointments}/>
+            appointmentsArray={appointments}
+            contactsArray={contacts}/>
           </Route>
         </Switch>
       </main>

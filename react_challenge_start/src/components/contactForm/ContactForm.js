@@ -20,6 +20,7 @@ export const ContactForm = ({
       </input>
       <label>Phone:</label>
       <input type="phone"
+      
       value={phone}
       onChange={({target}) => {setPhone(target.value)}}
       required>
