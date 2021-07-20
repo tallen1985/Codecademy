@@ -5,6 +5,7 @@ html, body {
     font-size: 16px;
     font-family: 'Gloria Hallelujah', cursive;
     box-sizing: border-box;
+    background-color: rgb(255, 250, 255);
 }
 nav {
     display:flex;
@@ -48,7 +49,6 @@ nav a:hover {
 main {
     margin: auto;
     margin-top:125px;
-    background-color: rgb(255, 250, 255);
 }
 
 article {
@@ -79,18 +79,22 @@ article {
     margin:25px;
 }
 
-#ian img {
+#photo img {
     width:100%;
+    z-index: -1;
 }
+
 .photobox p {
-    background-color: black;
+    display: none;
     color: rgb(255, 250, 255);
-    margin-top:-10px;
-    margin-bottom:0px;
     z-index: 2;
+    margin-top: -100px;
+    backdrop-filter: blur(5px);
 }
 
 footer {
+    position: fixed;
+    bottom: 0;
     width: 80%;
     display: block;
     height: 25px;
